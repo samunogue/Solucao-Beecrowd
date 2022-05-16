@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@media (max-width:540px) and (min-width:180px){
+    header{
+        position: fixed;
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+        padding: 2vh 0vh 1vh;
+    }
+    .titulo{
+        color: blueviolet;
+    }
+    main{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+    .botao_login_cabeca{
+        height: fit-content;
+        width: fit-content;
+        padding: 1.2vh 3.4vw 1.2vh;
+        border-radius: 10px;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 1.15rem;
+        transition: 0.5s all;
+    }
+    .botao_login_cabeca:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    .section_inicio{
+        background-image: url("fundo.png");
+        background-size: 100vw;
+        padding: 12vh 0.1vw 2.5vh;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_texto_login_cadastro{
+        height: fit-content;
+        width: 90%;
+        background:linear-gradient(180deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.15));
+        border-radius: 20px;
+        padding: 1vh 2vw 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .texto_inicio{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color:white;
+        text-align: center;
+    }
+    .div_area_login_cadastro{
+        padding-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_linha_ou_linha{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vw;
+    }
+    .linha_esquerda{
+        border-bottom: solid 2px rgb(255, 255, 255);
+        width: 7vw;
+    }
+    .ou{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+    }
+    .linha_direita{
+        border-bottom: solid 2px rgb(255, 255, 255);
+        width: 7vw;
+    }
+    .botao_login_cadastro{
+        height: fit-content;
+        width: fit-content;
+        padding: 1vh 5vw 1vh;
+        border-radius: 10px;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 1.15rem;
+        transition: 0.5s all;
+    }
+    .botao_login_cadastro:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    .section_questoes{
+        height: fit-content;
+        width: 100%;
+        padding: 3vh 3vw 5vh;
+    }
+    .flexbox_questoes{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 1.5vw 2vh;
+    }
+    .codigo_resposta{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color:rgba(189, 0, 255, 0.7);
+    }
+    .questao{
+        width: fit-content;
+        height: fit-content;
+        padding: 1vh 2vw 1vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        transition: 0.5s all;
+    }
+    .questao:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    
+    }
+    footer{
+        width: 100%;
+        height: fit-content;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+@media (max-width:1024px) and (min-width:541px){
+    header{
+        position: fixed;
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+        padding: 2vh 0vh 1vh;
+    }
+    .titulo{
+        color: blueviolet;
+    }
+    main{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+    .botao_login_cabeca{
+        height: fit-content;
+        width: fit-content;
+        padding: 1.2vh 5vw 1.2vh;
+        border-radius: 10px;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        font-size: 1.3rem;
+        color: white;
+        transition: 0.5s all;
+    }
+    .botao_login_cabeca:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    .section_inicio{
+        background-image: url("fundo.png");
+        background-size: 100vw;
+        padding: 12vh 2vw 2.5vh;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_texto_login_cadastro{
+        height: fit-content;
+        width: fit-content;
+        background:linear-gradient(180deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.15));
+        border-radius: 20px;
+        padding: 1vh 2vw 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto_inicio{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color:white;
+        text-align: center;
+    }
+    .div_area_login_cadastro{
+        padding-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_linha_ou_linha{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vw;
+    }
+    .linha_esquerda{
+        border-bottom: solid 2px rgb(255, 255, 255);
+        width: 7vw;
+    }
+    .ou{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+    }
+    .linha_direita{
+        border-bottom: solid 2px rgb(255, 255, 255);
+        width: 7vw;
+    }
+    .botao_login_cadastro{
+        height: fit-content;
+        width: fit-content;
+        padding: 1vh 5vw 1vh;
+        border-radius: 10px;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 1.15rem;
+        transition: 0.5s all;
+        white-space : nowrap;
+    }
+    .botao_login_cadastro:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    .section_questoes{
+        height: fit-content;
+        width: 100%;
+        padding: 3vh 3vw 5vh;
+    }
+    .flexbox_questoes{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 1.5vw 2vh;
+    }
+    .codigo_resposta{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color:rgba(189, 0, 255, 0.7);
+    }
+    .questao{
+        width: fit-content;
+        height: fit-content;
+        padding: 1vh 2vw 1vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        transition: 0.5s all;
+    }
+    .questao:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    footer{
+        width: 100%;
+        height: fit-content;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+@media (max-width:1440px) and (min-width:1025px){
+    header{
+        position: fixed;
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+        padding: 2vh 0vh 1vh;
+    }
+    .titulo{
+        color: blueviolet;
+    }
+    main{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+    .botao_login_cabeca{
+        height: fit-content;
+        width: fit-content;
+        padding: 1vh 3.5vw 1vh;
+        border-radius: 10px;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 1.15rem;
+        transition: 0.5s all;
+    }
+    .botao_login_cabeca:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    .section_inicio{
+        background-image: url("fundo.png");
+        background-size: 60vw;
+        padding: 12vh 0vw 2.5vh;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_texto_login_cadastro{
+        height: 40vh;
+        width: 60%;
+        background:linear-gradient(180deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.15));
+        border-radius: 20px;
+        padding: 1vh 2vw 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2vw;
+    }
+    .texto_inicio{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color:white;
+        text-align: center;
+    }
+    .div_area_login_cadastro{
+        padding-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_linha_ou_linha{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vw;
+    }
+    .linha_esquerda{
+        border-bottom: solid 2px rgb(255, 255, 255);
+        width: 7vw;
+    }
+    .ou{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+    }
+    .linha_direita{
+        border-bottom: solid 2px rgb(255, 255, 255);
+        width: 7vw;
+    }
+    .botao_login_cadastro{
+        height: fit-content;
+        width: fit-content;
+        padding: 1vh 5vw 1vh;
+        border-radius: 10px;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 1.15rem;
+        transition: 0.5s all;
+        white-space : nowrap;
+    }
+    .botao_login_cadastro:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    .section_questoes{
+        height: fit-content;
+        width: 100%;
+        padding: 3vh 3vw 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flexbox_questoes{
+        height: fit-content;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 1.5vw 2vh;
+    }
+    .codigo_resposta{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color:rgba(189, 0, 255, 0.7);
+    }
+    .questao{
+        width: fit-content;
+        height: fit-content;
+        padding: 1vh 2vw 1vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        transition: 0.5s all;
+    }
+    .questao:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    footer{
+        width: 100%;
+        height: fit-content;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+@media (min-width:1441px){
+    header{
+        position: fixed;
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.5rem;
+        padding: 2vh 0vh 1vh;
+    }
+    .titulo{
+        color: blueviolet;
+    }
+    main{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+    }
+    .botao_login_cabeca{
+        height: fit-content;
+        width: fit-content;
+        padding: 1vh 3.5vw 1vh;
+        border-radius: 10px;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 1.15rem;
+        transition: 0.5s all;
+    }
+    .botao_login_cabeca:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    .section_inicio{
+        background-image: url("fundo.png");
+        background-size: 60vw;
+        padding: 12vh 0vw 2.5vh;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_texto_login_cadastro{
+        height: 40vh;
+        width: 60%;
+        background:linear-gradient(180deg,rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.15));
+        border-radius: 20px;
+        padding: 1vh 2vw 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2vw;
+    }
+    .texto_inicio{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color:white;
+        text-align: center;
+    }
+    .div_area_login_cadastro{
+        padding-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .div_linha_ou_linha{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vw;
+    }
+    .linha_esquerda{
+        border-bottom: solid 2px rgb(255, 255, 255);
+        width: 7vw;
+    }
+    .ou{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+    }
+    .linha_direita{
+        border-bottom: solid 2px rgb(255, 255, 255);
+        width: 7vw;
+    }
+    .botao_login_cadastro{
+        height: fit-content;
+        width: fit-content;
+        padding: 1vh 5vw 1vh;
+        border-radius: 10px;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 1.15rem;
+        transition: 0.5s all;
+        white-space : nowrap;
+    }
+    .botao_login_cadastro:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    .section_questoes{
+        height: fit-content;
+        width: 100%;
+        padding: 3vh 3vw 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flexbox_questoes{
+        height: fit-content;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 1.5vw 2vh;
+    }
+    .codigo_resposta{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color:rgba(189, 0, 255, 0.7);
+    }
+    .questao{
+        width: fit-content;
+        height: fit-content;
+        padding: 1vh 2vw 1vh;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        transition: 0.5s all;
+    }
+    .questao:hover{
+        transform: scale(1.15);
+        cursor: pointer;
+    }
+    footer{
+        width: 100%;
+        height: fit-content;
+        background:linear-gradient(45deg,rgba(255, 230, 6, 1),rgba(189, 0, 255, 0.7));
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        font-weight: 600;
+    }
+}
