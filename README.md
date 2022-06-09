@@ -3,7 +3,7 @@
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
-## Projeto 🪧
+## Projeto 
 Esse projeto é uma aplicação de um ``CMS(Sistema de Gerenciamento de Conteúdo)`` para reunir as respostas do BEECROWD na linguagem javascript, o ``Solução Beecrowd`` tem
 a proposta de usúarios do site de exercicíos de progamação ``BEECROWD``, possam realizar seu cadastro e compartilhar suas respostas com os outros usúarios.
 
